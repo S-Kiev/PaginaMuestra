@@ -22,7 +22,9 @@
         <a href="/index.html">
             <img src="/images/logo.svg" alt="LogoPrototipo">
         </a>
-        <nav class="main-menu">
+        <span id="open-menu-button" class="jam jam-menu"></span>
+        <nav id="main-menu" class="main-menu">
+          <span id="close-menu-button" class="jam jam-close"></span>
             <ul>
                 <li>
                     <a href="/">Inicio</a>
@@ -68,16 +70,10 @@
               <input type="hidden" name="_next" value="https://radiant-mousse-5e20cc.netlify.app/">
               <input type="hidden" name="_captcha" value="false">
             </form>
-            <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyouwinbo&tabs=messages&width=340&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId=268863463136938"
-              width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-              allowTransparency="true" allow="encrypted-media">
-            </iframe>
-
           </div>
         </div>
 
-        <div>
+        <div class="informacion-contacto">
           <address>
             <h4>Información de Interes</h4>
             <div class="contact-item">
@@ -116,13 +112,8 @@
                 <a href="https://github.com/S-Kiev"><span class="jam jam-github-circle"></span></a>
               </div>
             </div>
-
-
-
           </address>
-
         </div>
-
 
       </div>
 
@@ -130,35 +121,37 @@
         <div class="title-container">
           <h4 class="subtitle title-map">Mi Ubicación</h4>
         </div>
-        <iframe class="map"
+        <iframe class="map "
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54493.6257347839!2d-57.93868735!3d-31.390654950000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95addd27e22982a9%3A0x68fc0fac8ca73bc7!2s50000%20Salto%2C%20Departamento%20de%20Salto!5e0!3m2!1ses-419!2suy!4v1676660428909!5m2!1ses-419!2suy"
-          width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          width="800" height="500" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
-
-    </section>
-
-    <section class="section-qrs">
-      <h2>QRs de Contacto</h2>
-      <div class="image-grid">
-        <article>
-          <div>
-            <img src="/images/qr-code-Linkedin.png" alt="Proyecto 1">
-          </div>
-        </article>
-        <article>
-          <div>
-            <img src="/images/qr-wa.png" alt="Proyecto 2">
-          </div>
-        </article>
-        <article>
-          <div>
-            <img src="/images/qr.github.png" alt="Proyecto 3">
-          </div>
-        </article>
+      <div class="section-qrs">
+        <h2>QRs de Contacto</h2>
+        <div class="image-grid">
+          <article>
+            <div>
+              <img src="/images/qr-code-Linkedin.png" alt="Proyecto 1">
+            </div>
+          </article>
+          <article>
+            <div>
+              <img src="/images/qr-wa.png" alt="Proyecto 2">
+            </div>
+          </article>
+          <article>
+            <div>
+              <img src="/images/qr.github.png" alt="Proyecto 3">
+            </div>
+          </article>
+        </div>
       </div>
+
+
+
     </section>
+  
     
   </main>
 

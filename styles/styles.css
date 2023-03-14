@@ -240,6 +240,10 @@ h4 {
   align-items : center;
 }
 
+.main-header .jam {
+  margin-left : auto;
+}
+
 .icon {
   font-size: 350%;
   transition: all 0.3s ease-in-out;
@@ -266,6 +270,12 @@ h4 {
 
 }
 
+.main-header .jam {
+  color     : var(--title-color);
+  font-size : 2.5rem;
+  cursor    : pointer;
+}
+
 .main-header .icon {
   color     : var(--title-color);
   font-size : 2.5rem;
@@ -275,6 +285,10 @@ h4 {
 @media screen and (min-width: 1024px) {
 
   .main-header .icon {
+    display : none;
+  }
+
+  .main-header .jam {
     display : none;
   }
 
@@ -332,6 +346,12 @@ h4 {
 }
 
 .main-menu .icon-close {
+  position : absolute;
+  right    : 1rem;
+  top      : 0.5rem;
+}
+
+.main-menu .jam-close {
   position : absolute;
   right    : 1rem;
   top      : 0.5rem;
@@ -483,6 +503,12 @@ h4 {
   text-align     : center;
   max-width      : 300px;
   margin         : 0 auto;
+}
+
+.service-item .jam {
+  margin-bottom : 1rem;
+  color         : var(--primary-color);
+  font-size     : 4rem;
 }
 
 .service-item .icon {
@@ -736,6 +762,10 @@ h4 {
   margin-right : 0.25rem;
 }
 
+.card-project .jam {
+  font-size : var(--big-font-size);
+}
+
 .card-project .icon {
   font-size : var(--big-font-size);
 }
@@ -842,6 +872,10 @@ h4 {
   font-size : 2rem;
 }
 
+.contact-item .jam {
+  font-size : 1rem;
+}
+
 .map-ubication {
   width         : 100%;
   height        : 200px;
@@ -884,6 +918,8 @@ input[type="text"], input[type="email"], textarea {
 .map-container {
   position: relative;
   text-align: center;
+  margin-top: 35em;
+  margin-bottom: 3rem;
 }
 
 .title-map{
@@ -932,6 +968,7 @@ input[type="text"], input[type="email"], textarea {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 2rem;
 }
 
 .section-container h2 {
@@ -976,5 +1013,10 @@ input[type="text"], input[type="email"], textarea {
 .descripcion {
   margin-top: 3rem;
 }
+
+
+
+
+
 
 
